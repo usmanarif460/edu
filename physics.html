@@ -9,7 +9,7 @@
     <meta name="author" content="Template Mo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>Notes</title>
+    <title>Physics</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -135,8 +135,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h6>Get all details</h6>
-          <h2>Online Teaching and Learning Tools</h2>
+          <h6>Get all Physics Lectures Here</h6>
+         
         </div>
       </div>
     </div>
@@ -150,38 +150,63 @@
           <div class="col-lg-12">
             <div class="filters">
               <ul>
-                <li data-filter="*"  class="active">All Notes</li>
-                <li data-filter=".soon">Soon</li>
-                <li data-filter=".imp"><a href="./physics.html">Physics</a></li>
-                <li data-filter=".math">Math</li>
+                <li data-filter="*"  class="active">All</li>
+                <li data-filter=".quantum">Quantum Mechanics</li>
+                <li data-filter=".plasma">Plasma</li>
+                <li data-filter=".newton">Newton</li>
               </ul>
             </div>
           </div>
           <div class="col-lg-12">
             <div class="row grid">
             
-              <div class="col-lg-4 templatemo-item-col all soon">
+              <div class="col-lg-4 templatemo-item-col all quantum">
                 <div class="Box">
                   <div>
                     <i class="fas fa-pencil-ruler"></i>
                     <h2>Quantum Physics</h2>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      More to Come
                     </p>
                     <a href="/Pdf/Electric Charge.pdf"> Learn More</a>
                   </div>
                 </div>
               </div>
-          
-              
-              
-              <div class="col-lg-4 templatemo-item-col all math">
+              <div class="col-lg-4 templatemo-item-col all plasma">
                 <div class="Box">
                   <div>
                     <i class="fas fa-pencil-ruler"></i>
-                    <h2>More Coming Soon</h2>
+                    <h2>Plasma Physics</h2>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                      Basic Concepts of Plasma
+                    </p>
+                    <a href="/Pdf/Basic concepts of plasma Physics.pdf"> Learn More</a>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="col-lg-4 templatemo-item-col all plasma">
+                <div class="Box">
+                  <div>
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h2>Plasma</h2>
+                    <p>
+                      Occurence of Plasma in nature
+                    </p>
+                    <a href="/Pdf/occurrence of plasma in nature.pdf"> Learn More</a>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="col-lg-4 templatemo-item-col all newton">
+                <div class="Box">
+                  <div>
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h2> Coming Soon</h2>
+                    <p>
+                      Will Upload soon. Thank You!
                     </p>
                     <a href="/Pdf/Electric Charge.pdf"> Learn More</a>
                   </div>
@@ -251,7 +276,7 @@
 
         $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
           e.preventDefault();
-          showSection($(this).mathr('href'), true);
+          showSection($(this).newtonr('href'), true);
         });
 
         $(window).scroll(function () {
